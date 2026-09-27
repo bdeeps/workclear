@@ -1,0 +1,168 @@
+{
+  "slug": "workclear",
+  "kind": "principle",
+  "box": 19,
+  "date": "2026-09-27",
+  "title": "Work and power",
+  "question": "What are work and power?",
+  "principle": {
+    "type": "concept",
+    "name": "Work and power",
+    "formula": "W = F × d · P = W ÷ t",
+    "formulaNote": "work = force × distance moved along the force, in joules; power = work ÷ time, in watts. One joule is 1 newton pushed through 1 metre, and one watt is one joule every second",
+    "idea": "You do work when a force moves something along the direction it pushes: work = force × distance, measured in joules. Power is how fast you do that work, work ÷ time, measured in watts.",
+    "discovered": "1829 · Gaspard-Gustave Coriolis names force × distance 'travail' (work); power was already measured in horsepower by James Watt, 1783",
+    "art": "hammer",
+    "appliesTo": [
+      "carclear",
+      "mixerclear",
+      "fanclear",
+      "cycleclear",
+      "motorcycleclear",
+      "waterheaterclear"
+    ],
+    "examples": [
+      {
+        "title": "Running up the stairs",
+        "text": "A 60 kg student climbing one floor, 3 m, in 5 s does about 1,770 J of work at about 350 W. Few people can keep that up for more than a minute."
+      },
+      {
+        "title": "Cycling to school",
+        "text": "Riding at 20 km/h on the flat takes about 80 W at the pedals, mostly to push the air aside. Most riders can hold 100 to 250 W for an hour.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "Low gears on a hill",
+        "text": "A bicycle's low gear works like a lever: each pedal stroke pushes less hard but you turn the pedals more times. The work to climb the hill stays the same.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "Engine horsepower",
+        "text": "A 1.2 litre hatchback makes about 90 hp, some 67 kW, and a 2.0 litre engine about 110 kW. Yet a petrol engine turns only about 30% of its fuel's energy into work.",
+        "box": "carclear"
+      },
+      {
+        "title": "Brakes do negative work",
+        "text": "A 1,200 kg car at 100 km/h carries about 460 kJ of kinetic energy. Hard braking removes all of it in about 56 m and turns it into heat in the brake discs.",
+        "box": "carclear"
+      },
+      {
+        "title": "A one-horsepower mixer",
+        "text": "A 750 W mixer grinder is almost exactly 1 hp, the power James Watt measured for a mill horse in 1782.",
+        "box": "mixerclear"
+      },
+      {
+        "title": "Motorcycle power",
+        "text": "A 100 cc commuter motorcycle makes about 5.9 kW, about 8 hp, and a 150 cc sports commuter about 10 kW. That power is force × speed at the rear tyre.",
+        "box": "motorcycleclear"
+      },
+      {
+        "title": "Fan hours add up",
+        "text": "A 75 W ceiling fan running 12 hours a day uses about 27 units a month; a 30 W BLDC fan doing the same job uses about 11.",
+        "box": "fanclear"
+      },
+      {
+        "title": "The geyser's 2 kW",
+        "text": "A geyser heats with a 2,000 W element, so half an hour a day uses 1 kWh, about 30 units a month: as much as a fan running 13 hours a day.",
+        "box": "waterheaterclear"
+      },
+      {
+        "title": "You run at 97 watts",
+        "text": "2,000 kcal of food a day is 8.4 MJ, about 2.3 kWh. Spread over 24 hours that is about 97 W, the power of an old light bulb."
+      }
+    ]
+  },
+  "hook": "Pull a crate at an angle, wind a bucket up a well, and watch the joules pile up under a graph. Race up the stairs at 350 watts, meet Watt's horse, lift a rice sack with a lever, pulley and ramp, read your electricity bill in kilowatt-hours, and find out why holding still makes you tired but does no work.",
+  "thumbText": "WORK AND POWER",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "work",
+    "power",
+    "joule",
+    "watt",
+    "horsepower",
+    "kilowatt-hour",
+    "simple machines",
+    "efficiency",
+    "negative work",
+    "energy bill",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Force times distance",
+      "text": "You do work when a force moves something along its direction: W = F × d, in joules. Pull at an angle and only F cos θ counts. On a force–distance graph, the work is the area under the line. If nothing moves, no work is done."
+    },
+    {
+      "title": "Power is a rate",
+      "text": "Power is work ÷ time, in watts. Running up 3 m of stairs in 5 s, a 60 kg student makes about 350 W. A cyclist holds 100 to 250 W. Watt's mill horse did 33,000 foot-pounds a minute: 1 hp = 745.7 W."
+    },
+    {
+      "title": "Machines trade force for distance",
+      "text": "Levers, pulleys, ramps and gears let a small force do a big job, but only by moving further. Work in = work out, minus friction. A bike chain is about 97% efficient; a petrol engine about 30%."
+    },
+    {
+      "title": "Paying for work",
+      "text": "Electricity is sold by the kilowatt-hour: 1 kWh = 3.6 MJ. A 1.5 kW AC for 6 hours a day uses 270 units a month. Food is energy too: 2,000 kcal a day is 8.4 MJ, an average of about 97 W."
+    },
+    {
+      "title": "Myths and limits",
+      "text": "Carrying a bag level does no work on it: the force is at 90° to the motion. More power doesn't mean more work, just faster work. Brakes do negative work. And holding still tires you because myosin heads keep burning ATP without moving anything."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Work",
+      "def": "Energy handed over by a force that moves something: force × distance moved along the force."
+    },
+    {
+      "term": "Joule (J)",
+      "def": "The unit of work and energy: a force of 1 newton acting over 1 metre."
+    },
+    {
+      "term": "Power",
+      "def": "How fast work is done: work ÷ time, or force × speed."
+    },
+    {
+      "term": "Watt (W)",
+      "def": "The unit of power: one joule every second."
+    },
+    {
+      "term": "Horsepower (hp)",
+      "def": "James Watt's unit of power: 33,000 foot-pounds per minute, 745.7 W."
+    },
+    {
+      "term": "Kilowatt-hour (kWh)",
+      "def": "1,000 W for one hour: 3.6 MJ. One 'unit' on an electricity bill."
+    },
+    {
+      "term": "Mechanical advantage",
+      "def": "How many times a machine multiplies your force. It always costs the same factor in distance."
+    },
+    {
+      "term": "Efficiency",
+      "def": "Useful work out ÷ energy in. The rest is lost, mostly as heat."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "workclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
